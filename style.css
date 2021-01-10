@@ -1,0 +1,70 @@
+        
+        @font-face {
+            font-family: 'Cyberverse';
+            src: url("assets/Cyberverse.otf") }
+            *{box-sizing: border-box}
+            body{
+                font-family: 'Cyberverse';
+                font-size:1.2rem
+            }
+            main{
+                display:flex;
+                align-items: center;
+                flex-direction: column;           
+            }
+            div[class="container"]{
+                overflow: hidden;
+                height: 30rem;
+                width:50rem;
+                background-color: rgb(196, 196, 196);
+            }
+            
+            div[class="image"]{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 30rem;
+                width: 50rem;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                transition: 0.4s
+            }
+            div[class="counter"]{
+                color: rgb(255, 255, 255);
+                padding:1rem
+            }        
+            div[class="caption"]{
+                color: rgb(255, 255, 255);
+                padding:1rem;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 300;
+            }
+            div[class="buttons"]{
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+                }
+            div[class="circles"]{
+                padding:1rem
+            }
+            i[class="fa fa-caret-left"], i[class="fa fa-caret-right"]{
+                color: rgb(255, 255, 255, 0.7);
+                font-size: 2.5rem;
+                margin:1rem
+            }
+            i[class="fa fa-caret-left"]:hover, i[class="fa fa-caret-right"]:hover{
+                color: rgb(255, 255, 255, 1);
+                font-size: 2.6rem;
+            }
+            i[class2="active"]{
+                color:rgb(0, 0, 0, 0.6)
+            }
+            i[class2="inactive"]{
+                color:rgb(0, 0, 0, 0.3)
+            }
+            i[class="fa fa-circle"]:hover{
+                color:rgb(0, 0, 0, 0.6)
+            }
+    
